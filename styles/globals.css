@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Lato", sans-serif;
+  color: #414141;
+}
+.image_container {
+  width: 300px;
+  height: 300px;
+}
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.image_container img {
+  height: 100%;
+  width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #111;
+  font-family: "Open Sans", Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+.hoverText {
+  font-size: 30px;
+  font-weight: 600;
+  animation: blur 0.85s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  letter-spacing: -1px;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}
+
+.dynamic_image_wrapper {
+  height: 30rem;
+  width: 80rem;
+  margin-top: 3rem;
+}
+.dynamic_image_wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.dynamic_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dynamic_wrapper h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
